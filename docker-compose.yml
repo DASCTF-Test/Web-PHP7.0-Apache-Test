@@ -7,4 +7,4 @@ services:
     image: dbapp/web_php70_apache_test
     build: ./web1/
     ports:
-      - "8079:5000"
+      - "8079:80"
